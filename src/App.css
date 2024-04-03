@@ -1,0 +1,47 @@
+/* navbar */
+.navbar-nav Link{
+  font-size: 18px;
+}
+
+/* testimonial */
+
+.testimonial-card {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+/*  home-slider */
+.carousel-image {
+  max-width: 100%;
+  max-height: 100vh; /* You can adjust the maximum height as needed */
+}
+
+
+ /* registration */
+
+
+ .registration-image {
+  max-width: 100%; /* Make image responsive */
+}
+
+.registration-form {
+  width: 75%; /* Initial width of the form */
+}
+
+@media (min-width: 2560px) {
+  .registration-image {
+    max-width: 80%; /* Adjust image size for screens wider than 2560px */
+  }
+  
+  .registration-form {
+    width: 70%; /* Adjust form size for screens wider than 2560px */
+  }
+}
